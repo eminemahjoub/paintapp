@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir=""ltr>
+<head>
+    <meta charest="utf-8">
+    <title>drawing website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <section class="tools-board">
+            <div class ="row">
+                <label class="title">shapes</label>
+                <ul class="options">
+                    <li class="option">
+                        <img src="icons/rectangle.svg" alt="">
+                        <span>rectangle</span>
+                    </li>
+                    <li class="option">
+                        <img src="icons/circle.svg" alt="">
+                        <span>circle</span>
+                    </li>
+                        <li class="option">
+                            <img src="icons/triangle.svg" alt="">
+                            <span>triangle</span>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="fill-color">
+                            <label for="fill-color">fill color</label>
+                            
+                        </li>
+                </ul>
+            </div>
+            <div class ="row">
+                <label class="title">options</label>
+                <ul class="options">
+                    <li class="option active">
+                        <img src="icons/brush.svg" alt="">
+                        <span>rectangle</span>
+                    </li>
+                    <li class="option">
+                        <img src="icons/eraser.svg" alt="">
+                        <span>eraser</span>
+                    </li>
+                        <li class="option">
+                            <input type="range" id="size-slider">
+                          
+                            
+                        </li>
+                </ul>
+            </div>
+            <div class ="row colors">
+                <label class="title">color</label>
+                <ul class="options">
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+              </ul>
+            </div>
+            <div class ="row button">
+               <button class="clear-canvas">clear canvas</button>
+               <button class="save-img">save as image</button>
+            </div>
+        </section>
+        <section class="drawing-board"></section>
+    </div>
+
+</body>
+</html>
